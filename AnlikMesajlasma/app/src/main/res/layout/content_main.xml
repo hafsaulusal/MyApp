@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#fdffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="false"
+        android:orientation="vertical"
+
+        android:background="@drawable/b">
+
+        <Button
+            android:id="@+id/btngirisyap"
+            android:text="GİRİŞ YAP"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:background="#61d58e"
+            android:textStyle="bold"
+            android:layout_alignTop="@+id/refbtnkayitol"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="25dp" />
+
+        <Button
+            android:id="@+id/refbtnkayitol"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:background="#273256"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="25dp"
+            android:text="KAYIT OL" />
+
+
+        <Button
+            android:id="@+id/btnreferans"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="REFERANS İLE KAYIT OL"
+            android:layout_marginBottom="121dp"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</LinearLayout>

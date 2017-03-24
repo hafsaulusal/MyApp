@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+
+        android:background="@drawable/w">
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:id="@+id/refkullaniciad"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Referans Olunan Kullanıcı Ad"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:inputType="textPersonName"
+            android:layout_marginTop="150dp"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:theme="@android:style/Theme.Holo" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/refkullanicitel"
+            android:hint="Referans Olunan Kullanıcı Telefon"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/refkullaniciad"
+            android:layout_alignStart="@+id/refkullaniciad"
+            android:layout_marginRight="20dp"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:theme="@android:style/Theme.Holo" />
+
+        <Button
+            android:id="@+id/refbtnkayitol"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:background="#54d988"
+            android:textStyle="bold"
+            android:layout_marginTop="56dp"
+            android:layout_below="@+id/refkullanicitel"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Referans İle Kayıt Ol" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Standart kısa mesaj ücretleri uygulanabilir."
+            android:id="@+id/smsucret"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/refbtnkayitol"
+            android:layout_marginBottom="58dp"
+            android:layout_alignEnd="@+id/refbtnkayitol"
+            android:textSize="18sp"
+            android:textColor="#6d6d6d" />
+
+
+    </RelativeLayout>
+</LinearLayout>
+

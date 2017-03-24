@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <!-- Editext for Search -->
+
+    <!-- List View -->
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/EditKullanici" />
+
+    <EditText
+        android:id="@+id/EditKullanici"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:focusable="true"
+        android:hint="Kullanıcı adı gir"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+</RelativeLayout>

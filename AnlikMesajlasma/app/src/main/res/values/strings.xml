@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">AnlikMesajlasma</string>
+    <string name="action_settings">Settings</string>
+    <string name="icon">icon</string>
+    <string name="btngiris">Giriş Yap</string>
+    <string name="btnkayit">Kayıt Ol</string>
+    <string name="kullanicitel">Kullanıcı Telefon</string>
+    <string name="kullaniciparola">Parola</string>
+    <string name="btngirisyap">Giriş Yap</string>
+    <string name="kullaniciad">Kullanıcı Ad</string>
+    <string name="kullanicitelefon">Kullanıcı Telefon</string>
+    <string name="kullaniciparolaa">Parola</string>
+    <string name="btnkayitol">Kayıt Ol</string>
+    <string name="title_activity_deneme">Deneme</string>
+    <string name="title_activity_kayit_ol">KayitOl</string>
+    <string name="title_activity_giris_yap">GirisYap</string>
+    <string name="title_activity_tab_host">TabHost</string>
+    <string name="title_activity_ana_form">AnaForm</string>
+    <string name="btnkullaniciyagore">Kullanıcı adına göre ekle</string>
+    <string name="btnadresdefgore">Adres defterinden ekle</string>
+    <string name="adres">Adres defterine göre ekle</string>
+    <string name="title_activity_sohbet">Sohbet</string>
+    <string name="btn">Gönder</string>
+    <string name="parolatekrar">Parola Tekrar</string>
+    <string name="ref">Referans ile Kayıt Ol</string>
+    <string name="title_activity_referans_kayit">ReferansKayit</string>
+    <string name="btnkayito">Referans İle Kayıt Ol</string>
+    <string name="a">Referans ile Kayıt Ol</string>
+    <string name="title_activity_arkadas_ekle">ArkadasEkle</string>
+    <string name="ara">Kullanıcı adı ara...</string>
+    <string name="title_activity_mesaj">Mesaj</string>
+    <string name="title_activity_resim_gonder">ResimGonder</string>
+</resources>
